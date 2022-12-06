@@ -8,4 +8,10 @@
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="arrow_forward">
     <path d="m24 40-2.1-2.15L34.25 25.5H8v-3h26.25L21.9 10.15 24 8l16 16Z"></path>
   </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="chevron_right">
+    <path d="m18.75 36-2.15-2.15 9.9-9.9-9.9-9.9 2.15-2.15L30.8 23.95Z"></path>
+  </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="chevron_left">
+    <path d="M28.05 36 16 23.95 28.05 11.9l2.15 2.15-9.9 9.9 9.9 9.9Z"></path>
+  </symbol>
 </svg>
