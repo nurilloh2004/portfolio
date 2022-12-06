@@ -302,6 +302,7 @@ h5 {
   left: 0;
   width: 100%;
   background: var(--color-white);
+  z-index: 999;
 }
 
 .nav__logo {
@@ -542,8 +543,37 @@ h5 {
 
 .projects {
   padding: 50px 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.projects::after {
+  content: '';
+  height: 30%;
+  width: 100%;
+  background: var(--color-black);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .projects__header {
   margin-bottom: 50px;
 }
+
+.projects__slide-content {
+  padding: 30px;
+  background: var(--color-white);
+}
+
+.projects__slide-title {
+  margin: 5px 0 10px 0;
+}
+
+.projects__slide-img {
+  width: 100%;
+  max-height: 485px;
+  object-fit: cover;
+}
+
