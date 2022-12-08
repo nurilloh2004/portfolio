@@ -4,6 +4,7 @@ import Services from './blocks/Services';
 import Sponsors from './blocks/Sponsors';
 import Projects from './blocks/Projects';
 import Blogs from './blocks/Blogs';
+import Product from './blocks/Product';
 
 function App() {
   return <>
@@ -13,6 +14,7 @@ function App() {
     <Services />
     <Projects />
     <Blogs />
+    <Product />
   </>;
 }
 
